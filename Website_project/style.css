@@ -1,0 +1,251 @@
+body{
+    widht: 100%;
+    background-color: rgb(243, 241, 241);
+}
+.navbar{
+    margin: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: (max-content, 1fr) minmax(25%, 50%) minmax(max-content, 1fr);
+    column-gap: 5px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#spanjs{
+    display:inline-block;
+    margin: 4px;
+}
+.navbar > div > div > a
+{
+    color: black;
+}
+
+.imgfr{
+    height: auto;
+    width: 100%;
+}
+
+.navbardiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 13px; 
+}
+.icon{
+    margin-right: 7%;
+}
+.sym1{
+    margin-right: 1%;
+}
+.sym2{
+    margin-right: 1%;
+}
+.span{
+    margin-left: 10%;
+    margin-right: 22%;
+
+}
+.optiongrid{
+    display: grid;
+    grid-template-columns: 2fr auto 2fr;
+    align-items: center;
+    margin: auto;
+    margin-left: 7%;
+}
+
+@media all and (min-width : 720px) 
+{
+    .ulflex{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 28px;
+        padding: 0px 6px;
+        height: 100%;
+
+    }
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 26%;
+    font-size: 14px;
+    cursor: pointer;
+}
+.ulflex{
+    margin-left: 2%;
+    margin-top: -2%;
+}
+.optionA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.optionA:hover{
+    background-color: rgb(255, 254, 148);
+    
+}
+
+h1{
+    margin-left: 23%;
+    margin-right: 43%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
+}
+.option{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+#UL2{
+    margin-left: 10%;
+    display: flex;
+}
+
+.BUT{
+
+    color: white;
+    background-color: transparent;
+    margin-bottom: 5%;
+    border: none;
+    cursor: pointer;
+
+}
+.off{
+    height: 72px;
+    cursor: pointer;
+    margin-top: -1%;
+    background-color: rgb(255, 78, 181);
+}
+
+.offdiv{
+    margin-left: 35%;
+    padding: 2%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.offp{
+    color: rgb(82, 81, 81);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Montserrat,sans-serif;
+    margin-left: 47%;
+    margin-top: 4%;
+}
+.offppi{
+    color: rgb(82, 81, 81);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3%;
+}
+#lab1{
+    cursor: pointer;
+    height: 80px;
+    width: 23%;
+    margin-top: -13%;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2.7%;
+}
+.labTi1{
+    color: black;
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+.labTi2{
+    color: black;
+    line-height: 3.4;
+    font-size: 14px;
+    font-family:'Courier New';
+    line-height: 2.5;
+}
+
+.labTi3{
+    color: black;
+    font-family: Arial;
+    line-height: 3;
+    text-decoration: underline;
+}
+
+#lab2{
+    height: 80px;
+    width: 83%;
+    margin-top: 8%;
+    margin-left: 11%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post2 {
+    width: 22%;
+    height: 500px;
+    margin-top: -3%;
+    position: absolute;
+    left: 41.2%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.post2 > h3{
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 100;
+    color: rgb(158, 155, 155);
+}
+
+.uldesi > li {
+    text-align: center;
+    font-size: 14px;
+    font-size: large;
+    margin-left: -49%;
+    line-height: 2;
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+}
+
+.uldesi >  a {
+    margin-left: -11%;
+    line-height: 4;
+    margin-left: 4%;
+    font-family: Arial;
+    text-decoration: underline;
+    
+}
+.imgsec{
+    height: auto;
+    width: 98%;
+    height: 580px;
+}
+.pass1{
+    margin-top: 60%;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 18%;
+}
+.pass{
+    margin-top: 60%;
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+.pA{
+    font-family: Arial;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -6%;
+    margin-left: 35%;
+   
+}
+.offer {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5%;
+}

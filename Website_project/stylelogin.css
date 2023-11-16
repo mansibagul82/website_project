@@ -1,0 +1,121 @@
+.logpage{
+    height: 500px;
+    width: 30%;
+    display: block;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(57, 61, 63, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.again{
+    background-color: rgb(255, 255, 107);
+    font-size: 18px;
+    font-weight:bold;
+    padding: 1%;
+    font-family: Montserrat, sans-serif;
+
+}
+h6{
+    font-size: 11px;
+    color: #565656;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.loginoption{
+    /* width: 10%; */
+    display: flex;
+}
+.buttonf{
+    display: block;
+    margin: auto;
+    padding: 1%;
+    height: 60px;
+    width: 300%;
+    margin-top: 2%;
+    cursor: pointer;
+    margin-bottom: 2%;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: rgba(30, 65, 161, 0.833);
+}
+.buttong{
+    display: block;
+    margin: auto;
+    padding: 1%;
+    width: 300%;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-color: transparent;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.email{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 2%;
+    padding: 4%;
+    background-color: #f0f0f0;
+    border: transparent;
+    display: block;
+}
+.emailpass{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 2%;
+    padding: 4%;
+    background-color: #f0f0f0;
+    border: transparent;
+    display: block;
+}
+.remember{
+    background-color: #fff;
+    border: 10px solid #999;
+    cursor: pointer;
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    margin: 0.25em 0.5em 0.25em 0.25em;
+}
+.rememe{
+    font-size: 12px;
+    color: #c0c0c0;
+    font-weight:200;
+    font-family: Montserrat, sans-serif;
+}
+.forgot{
+    margin-right: -55%;
+    padding: 2%;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    color: #545353;
+    text-decoration: underline;
+}
+.forp{
+    padding: 2%;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    color: #545353;
+}
+.hrdot{
+    border: 2px dotted rgb(244, 243, 243);
+}
+.alog{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.login{
+    margin: auto;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    padding: 2%;
+    width: 80%;
+    cursor: pointer;
+    font-weight: bold;
+    border: transparent;
+}
+.new{
+    font-size: 13px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,32 @@
+.customer{
+    height: 310px;
+    width: 25%;
+    display: block;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(57, 61, 63, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.black{
+    margin: auto;
+    height: 50px;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: black;
+    width: 80%;
+}
+.hrdot{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 2px dotted rgb(244, 243, 243);
+}
+p{
+    cursor: pointer;
+}
+button{
+    border: transparent;
+    font-size: 11px;
+    width: 80%;
+    padding: 6%;
+    /* cursor: pointer;/ */
+    background-color: rgb(246, 245, 245);
+}
